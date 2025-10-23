@@ -1,1 +1,105 @@
-/* Add styles here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+  }
+  /*1 rem = 16px*/ /*1 rem = 10px8*/
+  :root {
+    font-size: 62.5%;
+  }
+  
+  #page {
+    max-width: 1200px;
+    margin-inline: auto;
+  }
+  
+  body {
+    font-size: 1.6rem;
+    background: rgb(219, 237, 248); 
+    color: #8d93ac;
+  }
+  
+  header {
+    padding-block: 2rem;
+  }
+  
+  fieldset {
+    padding: 2rem;
+    border: none;
+  }
+  
+  input {
+    display: block;
+    margin-top: 0.6rem;
+    padding: 0.7rem;
+    border-radius: 1rem;
+    border: none;
+  }
+  
+  input:focus {
+    outline: 2px solid rgb(108, 33, 194);
+  }
+  
+  input::placeholder {
+    color: oklch(92.5% 0.084 155.995);
+  }
+  
+  div {
+    margin-bottom: 1rem;
+  }
+  
+  input[type=file] {
+    color: #b9c4d3;
+  }
+  
+  input[type=checkbox],
+  input[type=radio] {
+    display: inline-block;
+    outline: none;
+  }
+  
+  fieldset:nth-last-of-type(2) > div {
+    margin-bottom: 2rem;
+  }
+  
+  fieldset:nth-last-of-type(2) h2 {
+    margin-bottom: 1rem;
+  }
+  
+  textarea {
+    display: block;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    border: none;
+    padding: 1rem;
+    resize: none;
+  }
+  
+  select {
+    padding: 0.8rem;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+  }
+  
+  button {
+    margin-bottom: 2rem;
+    padding: 0.6rem 1rem;
+    background: rgb(58, 73, 88);
+    border: none;
+    border-radius: 1rem;
+    color: #FFF;
+    font-weight: 700;
+  }
+  
+  button:hover {
+    background: rgb(127, 78, 216);
+  }
+  
+  @media (max-width: 76.8rem) {
+    #page {
+      padding-inline: 2rem;
+    }
+  }
+  
